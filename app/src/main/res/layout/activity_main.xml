@@ -18,6 +18,16 @@
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:id="@+id/address_et"
+      android:hint="address"
+      android:inputType="text"
+      android:gravity="left"
+      android:layout_margin="10dp"
+      android:layout_below="@+id/Contactno_et"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
       android:id="@+id/Contactno_et"
       android:hint="Contact No"
       android:gravity="left"
@@ -32,8 +42,6 @@
       android:layout_margin="20dp"
       android:gravity="center"
       android:text="submit"
-      android:layout_below="@+id/Contactno_et"
+      android:layout_below="@+id/address_et"
       />
-  
-
 </RelativeLayout>
